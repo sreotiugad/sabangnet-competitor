@@ -1,0 +1,4 @@
+requests
+anthropic
+# 네이버 파워링크 DOM 파싱(providers_firecrawl.parse_powerlink_html) — LLM 추출 대신 결정적 파싱
+beautifulsoup4

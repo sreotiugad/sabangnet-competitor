@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "functions": {
+    "api/keyword.py": {
+      "includeFiles": "pipeline/**",
+      "maxDuration": 30
+    },
+    "api/competitor.py": {
+      "includeFiles": "pipeline/**",
+      "maxDuration": 60
+    },
+    "api/competitor_ads.py": {
+      "maxDuration": 60
+    },
+    "api/competitor_google_ads.py": {
+      "maxDuration": 60
+    },
+    "api/chat.py": {
+      "maxDuration": 30
+    }
+  }
+}
